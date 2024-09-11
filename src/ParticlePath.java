@@ -29,7 +29,7 @@ public class ParticlePath {
                 iterator.remove();
             } else {
                 g.setColor(Color.RED);
-                g.fillRect((int) Math.round(position[0]), (int) Math.round(position[1]), 5, 5);
+                g.fillRect((int) Math.round(position[0]), (int) Math.round(position[1]), 1, 1);
                 
             }
             position[2] += 1;

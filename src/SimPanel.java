@@ -24,8 +24,8 @@ public class SimPanel extends JPanel implements Runnable {
 
     BigDecimal tick = new BigDecimal(0);
 
-    BigDecimal metersPerPixel = new BigDecimal("2000000");
-    BigDecimal timeMultiplier = new BigDecimal("275000");
+    BigDecimal metersPerPixel = new BigDecimal("10000");
+    BigDecimal timeMultiplier = new BigDecimal("1");
     double amountOfFrames = 120;
     double amountOfTicks = 12000;
     boolean infinitePaths = true;
