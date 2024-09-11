@@ -4,7 +4,7 @@ import java.awt.Rectangle;
 import java.math.BigDecimal;
 
 
-public class Photon extends Rectangle{
+public class Photon extends Rectangle {
     final String name;
     BigDecimal xPosition, yPosition, xVelocity, yVelocity, radius;
     BigDecimal tickAtClosestPoint;
