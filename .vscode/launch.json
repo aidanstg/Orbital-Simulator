@@ -5,6 +5,13 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "type": "java",
+            "name": "Launch OrbitalSimulator",
+            "request": "launch",
+            "mainClass": "OrbitalSimulator",
+            "projectName": "Orbital-Simulator_7c5599fd"
+        },
+        {
             "type": "jdk",
             "request": "launch",
             "name": "Launch Java App"
