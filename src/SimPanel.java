@@ -24,12 +24,12 @@ public class SimPanel extends JPanel implements Runnable {
 
     BigDecimal tick = new BigDecimal(0);
 
-    BigDecimal metersPerPixel = new BigDecimal("10000");
-    BigDecimal timeMultiplier = new BigDecimal("1");
+    BigDecimal metersPerPixel = new BigDecimal("700000");
+    BigDecimal timeMultiplier = new BigDecimal("100");
     double amountOfFrames = 120;
     double amountOfTicks = 12000;
-    boolean infinitePaths = true;
-    double pathDurationInTicks = 300;
+    boolean infinitePaths = false;
+    double pathDurationInTicks = 150;
 
     Set<Particle> particles;
     Set<Photon> photons;
